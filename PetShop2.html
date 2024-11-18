@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="shortcut icon" href="./IMG/pawprint 1.png" type="image/x-icon">
+    <title>PetShop</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <!--Superior-->
+        <nav class="navbar navbar-expand-lg bg-black" style="margin:0px" >
+            <div class="container">
+              <a class="navbar-brand p-0 m-0" style="font-size:12px">Grandes ofertas en comederos</a>
+              <button class="navbar-toggler p-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " style="font-size:12px" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto p-0 m-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Español
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>            
+                      <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ARG$
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!--Logo y menú-->
+        <nav class="navbar navbar-expand-lg bg-menu ">
+          <div class="container align-items-center">
+            <a class="navbar-brand fw-bold fs-4" href="#"><img src="./IMG/Cat.png" alt="..."><span class="text-front"> Front</span>Cat&Dog <img src="./IMG/Dog.png" alt="..."></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="fa-solid fa-paw me-1"></i>Categorías</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="fa-solid fa-paw me-1"></i>Pets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="fa-solid fa-paw me-1"></i>Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="fa-solid fa-paw me-1"></i>Contactanos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+    </header>
+    
+    <!--Main-->
+    <main>
+      <!--Slide-->
+      <section>
+        <div class="imagen" >
+          <img src="./IMG/bowlverde.png" class="card-img-top imagen" alt="...">
+                                    
+          <span class="texth2">¡Es un placer tenerte aquí!</span>
+          <span class="descuento ">¡Comederos en descuento!</span>
+          <button class="btn botonSlide ">Comprar</button>
+      </div>
+      </section>
+      <!--Productos Destacados-->
+        <section class="bg-light d-flex flex-column align-items-center p-4">
+          <div class="container d-flex align-items-center flex-column p-2 text-black">
+                <img src="./IMG/pawprint 1.png" alt="">
+              <h1 class="text-center text-front fw-bold">Productos Destacados</h1>
+              <span class="text-front">Comederos - Accesorios - Comida </span>
+          </div>
+
+          <!--Tarjetas-->
+          <div class="container row d-flex  flex-row align-items-center">
+            <article class="col-12 col-sm-6 col-lg-4 p-3 ">
+                <div class="card  align-items-center bg-card ">
+                   <img src="./IMG/churrasquito.png" class="card-img-top w-75 mt-4" alt="...">
+                   <div class="card-body bg-card d-flex flex-column align-items-center ">
+                     <span class="fs-5 text-front fw-bold">Juguete Churrasquito</span>
+                     <span class="fs-6 text-precio fw-bold py-2">$150</span>
+                     </div>
+                 </div>   
+               </article>
+
+               <article class="col-12 col-sm-6 col-lg-4 p-3 ">
+                <div class="card  align-items-center bg-card ">
+                   <img src="./IMG/comedero.png" class="card-img-top w-75 mt-4" alt="...">
+                   <div class="card-body bg-card d-flex flex-column align-items-center">
+                     <span class="fs-5 text-front fw-bold">Comedero para perros</span>
+                     <span class="fs-6 text-precio fw-bold py-2">$250</span>
+                     </div>
+                 </div>   
+               </article>
+
+               <article class="col-12 col-sm-6 col-lg-4 p-3 ">
+                <div class="card  align-items-center bg-card ">
+                   <img src="./IMG/Huesito.png" class="card-img-top w-75 mt-4" alt="...">
+                   <div class="card-body bg-card d-flex flex-column align-items-center">
+                     <span class="fs-5 text-front fw-bold">Juguete Huesito</span>
+                     <span class="fs-6 text-precio fw-bold py-2">$650</span>
+                     </div>
+                 </div>   
+               </article>
+
+        </div>      
+      </section>        
+    </main>
+    
+    <!--Footer-->
+    <footer>
+        <!--Formulario-->
+        <section class="bg-light py-4">     
+          <div class="container content-fix">
+           <div class="container d-flex flex-column align-items-center py-1">
+             <h1 class="display-6 fw-bold text-front">Contáctanos</h1>            
+           </div> 
+           <form class="container text-front ">
+             <div class="mb-1">
+               <label for="exampleInputName" class="form-label"></label>
+               <input type="name" placeholder= "Nombre y apellido" class="form-control bg-formulario " id="exampleInputName" aria-describedby="emailHelp">
+             </div>
+             <div class="mb-1">
+               <label for="exampleInputEmail1" class="form-label"></label>
+               <input type="email" placeholder= "Ingresá tu correo electrónico" class="form-control bg-formulario" id="exampleInputEmail1" aria-describedby="emailHelp">
+               </div>
+             <div class="mb-3">
+               <label for="exampleInputTelefono" class="form-label"></label>
+               <input type="telefono" placeholder= "Teléfono" class=" form-control bg-formulario " id="exampleInputTelefono">
+             </div>
+             <div class="container  d-flex justify-content-center">
+              <button type="submit" class="btn  me-3 rounded-4 bg-reset">Resetear</button>
+              <button type="submit" class="btn  rounded-4 bg-enviar ">Enviar</button>
+            </div>         
+           </form>
+          </div>
+         </section>
+        <!--Suscribcion-->
+        <section class="bg-enviar row d-flex justify-content-between">
+          
+            <div class="col-12 col-md-6 d-flex align-items-center">
+              <img src="./IMG/enviar-correo 1.png"  alt="" class="correo pe-2">
+              <h2 class="fs-5 text-light">Suscribite para más novedades</h2>
+            </div>
+              <div class="col-12 col-md-6">
+               <form class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-end ">
+                  <input type="email" placeholder= "Ingresá tu correo electrónico" size="40" class="form-control fs-6 bg-input " id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text "></div>
+                </div>                
+                <button type="submit" class="btn bg-suscribir ms-4">Suscribir</button>
+              </form>  
+              </div>  
+                   
+       </section>
+       <!--Footer-->
+        <section class="  bg-marron">
+          <!--Logo y Contacto-->
+          <div class=" row   d-flex align-items-center justify-content-center">
+            <!--Contacto-->
+            <div class=" container content-adap row d-flex">
+              <div class="col-12 col-md-6 d-flex">
+                <div class="imagenes d-flex flex-column">
+                  <i><img src="./IMG/Icono (2).png" alt="" class="me-3"></i>
+                  <i><img src="./IMG/Icono.png" alt="" class="me-3"></i>
+                  <i><img src="./IMG/Icono (1).png" alt="" class="me-3"></i>
+                </div>                            
+              <div class="d-flex flex-column textContac">
+                  <div class="d-flex flex-column ">
+                      <span class=" fs-3 fw-bold text-pri">Localidad</span>
+                      <span class="fw-light text-min">Calle - provincia</span>    
+                  </div>
+                  <div class="d-flex flex-column py-1">
+                     <span class="fs-3 fw-bold">Telefono</span>
+                      <span class="fw-light text-min">Número de telefono</span> 
+                  </div>
+                  <div class=" content-adap  d-flex flex-column ">
+                     <span class="fs-3 fw-bold">Correo Electrónico</span>
+                      <span class="fw-light text-min">Dirección de correo</span> 
+                  </div>
+              </div>
+            </div>
+            
+            <!--Logo-->
+            <div class="col-12 col-md-6  d-flex align-items-center flex-row justify-content-between justify-content-md-center ">
+             <a class="navbar-brand fw-bold fs-4" href="#"><img src="./IMG/Cat.png" alt="...">Front<span class="text-amarillo">Cat&Dog</span><img src="./IMG/Dog.png" alt="..."></a>
+            </div>
+          </div>
+          </div>
+        </section>
+        <!--Pie de página-->
+        <section class="bg-black  text-center text-light">
+          <span>Todos los derechos reservados Front End</span>
+
+        </section>
+    </footer>
+    <script> src="./js/bootstrap.bundle.min.js"</script>
+</body>
+</html>

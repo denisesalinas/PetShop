@@ -1,0 +1,125 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.bg-menu{
+    background-color:#F0A83E ;
+}
+.text-front{
+    color: #3C2313;
+}
+main .imagen{
+    position: relative;
+}
+
+.texth2{
+    position: absolute;
+    top:55%;
+    right: 3%;    
+    transform: translate(-3%,-55%);
+    padding: 10px;
+    font-size: 3vw;
+    font-weight: 400;
+    background: white;
+    color: #3C2313;  
+    border-radius: 5px;
+}
+.descuento{
+    position: absolute;
+    top:65%;
+    right: 10%;    
+    transform: translate(-10%,-65%);
+    font-size: 2vw;
+    font-weight: 400;
+    margin-top: 1vw;
+    color: #3C2313; 
+}
+
+.botonSlide{
+    position: absolute;
+    top:85%;
+    right: 15%;    
+    transform: translate(-15%,-85%);
+    font-size: 1.5vw;
+    background: #F0A83E;
+    padding: 12px 30px;   
+    border-radius: 5px;
+    font-weight: 400;
+    color: white;   
+    text-align: center;  
+}
+.bg-card{
+    background-color: #FBFAF6;
+}
+
+.bg-enviar{
+    background-color:  #F0A83E;
+    
+    padding: 8px 32px 7px 34px;
+}
+
+.bg-reset{
+   background-color:  #666666;
+   color: white;
+   padding: 8px 22px 7px 25px;
+}
+
+footer form .bg-suscribir{
+    background-color: #3C2313;
+    color: white ;
+    border-radius: 20px;
+}
+
+footer form .bg-input { /*No funciona*/
+    background-color: #FBFAF6;
+    color: #565454;
+
+    border-radius: 10px;
+}
+
+footer form .bg-formulario{
+    background-color: #3C2313;
+    color: white ;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+footer .bg-marron{
+    background-color: #3C2313;
+}
+
+footer .correo{
+    margin-left:2vw;
+}
+
+footer .imagenes{
+    margin-left: 3vw;
+    margin-top:2vw;
+    margin-bottom:2vw;
+
+}
+footer .textContac{
+    margin-top:2vw;
+    margin-bottom:2vw;
+}
+
+.text-amarillo{
+    color:#F0A83E
+}
+footer .text-min{
+    color:#666666;
+    
+}
+/*----------------Media queries-----------------*/
+
+@media(max-width:600px){
+   
+}
+@media(max-width:640px){
+   
+   
+}    
+
+@media( min-width:640px) and (max-width:970px){
+   
+
+}
